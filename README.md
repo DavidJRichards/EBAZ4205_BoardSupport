@@ -12,29 +12,29 @@ a new pre-defined board 'Ebaz4205' to select the processor type and some i/o des
 
 When a block design with the ps7 is created the system offers to 'run block automation'
 
-![Designer Assistance](./DesignerAssistance.png)
+![Designer Assistance](./images/DesignerAssistance.png)
 
 An option is to 'Apply Board Preset', this is configured to set the neccessary values to make the memory and other devices work. The parameters are in the presets.xml found in the board files
 
-![Block Automation](./BlockAutomation.png)
+![Block Automation](./images/BlockAutomation.png)
 
 
 ## show configuration
 
 An overview of the applied settings is shown here:
 
-![Block Design](./BlockDesign.png)
+![Block Design](./images/BlockDesign.png)
 
-![show clocks](./Screenshot from 2021-02-18 13-38-26.png)
+![show clocks](./images/Screenshot from 2021-02-18 13-38-26.png)
 
 ## configure ps7 - alternative method
 
 Before the board preset was configured a .tcl script was used to perform a similar purpose
 
-![select preset](./Screenshot from 2021-02-18 13-37-39.png)
+![select preset](./images/Screenshot from 2021-02-18 13-37-39.png)
 
 A new board preset to automatically configure the i/o devices and memory parts. apply in ps7 block configuration screen.
-[ebaz-4207-preset.tct](./ebaz4205-ps7-preset.tcl)
+[ebaz-4207-preset.tct](./images/ebaz4205-ps7-preset.tcl)
 
 
 # pin definitions
@@ -73,7 +73,7 @@ of the twelve-pin version are arranged so that it provides two of the six-pin in
 
 ## connector example
 
-![pmod connector](./pmod-connector.png)
+![pmod connector](./images/pmod-connector.png)
 
 
 ## Digilent pmod IP library
@@ -89,15 +89,15 @@ The prototype board has all inputs switching to -ve, with 10k pull-up resitors t
 
 Pmod interface socket with pmod encoder board
 
-![pmod enc proto](./pmod-enc-proto.png)
+![pmod enc proto](./images/pmod-enc-proto.png)
 
 ## demo application running
 
 The board connected up and ready to go
 
-![pmod inuse](./pmod-inuse.png)
+![pmod inuse](./images/pmod-inuse.png)
 
 Terminal output from demo application
 
-![pmod enc term](./pmod-enc-term.png)
+![pmod enc term](./images/pmod-enc-term.png)
 
