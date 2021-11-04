@@ -1,5 +1,13 @@
 # Vivado export
 
+## WIP note
+note: there something wrong with demo .xsa file so use this instead
+[wrapper.xsa](./bitstream/design_4_wrapper.xsa) its one I made earlier.
+
+The folloing instructions create a working ping server using the above file.
+goto step 'Vitis import'
+
+
 ## create wrapper.xsa file
 
 To use the bitstream from the PS within Vitis the settings and binary bitstream need to be exported from Vivado and then imported into Visis as a platform object.
