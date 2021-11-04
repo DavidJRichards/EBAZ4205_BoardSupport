@@ -208,9 +208,15 @@ rtt min/avg/max/mdev = 2.904/3.382/4.199/0.450 ms
 
 # echo server test
 
-The application running on the PS will echo back packets sent to it. one way to do this is to use putty raw telnet settings.
-(todo)
+## putty 
 
+![putty setup](./images/putty-lwip-setup.png)
+
+![putty session](./images/putty-lwip-session.png)
+
+## wireshark
+
+![wireshark trace](./images/wireshark-lwip-trace.png)
 
 
 
