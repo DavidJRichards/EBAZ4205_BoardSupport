@@ -5,8 +5,11 @@ a new pre-defined board 'Ebaz4205' to select the processor type and some i/o des
 
 ## create project
 
-![select board](./Screenshot from 2021-02-18 13-40-42.png)
-![board selected](./Screenshot from 2021-02-18 11-31-01.png)
+### select board
+![select board](./images/select_board.png)
+
+### board selected
+![board selected](./images/board_selected.png)
 
 ## configure ps7 
 
@@ -25,13 +28,13 @@ An overview of the applied settings is shown here:
 
 ![Block Design](./images/BlockDesign.png)
 
-![show clocks](./images/Screenshot from 2021-02-18 13-38-26.png)
+![show clocks](./images/show_clocks.png)
 
 ## configure ps7 - alternative method
 
 Before the board preset was configured a .tcl script was used to perform a similar purpose
 
-![select preset](./images/Screenshot from 2021-02-18 13-37-39.png)
+![select preset](./images/select_preset.png)
 
 A new board preset to automatically configure the i/o devices and memory parts. apply in ps7 block configuration screen.
 [ebaz-4207-preset.tct](./images/ebaz4205-ps7-preset.tcl)
